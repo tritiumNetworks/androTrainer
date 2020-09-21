@@ -1,0 +1,48 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  background-color: rgb(242, 244, 248);
+}
+
+.navbar {
+  background-color: rgb(242, 244, 248);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.72143em;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1.27029em;
+}
+
+.badge {
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.input {
+  caret-color: transparent;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: gray;
+}
+
+.red::placeholder {
+  color: #ff253b;
+}
+
+.green::placeholder {
+  color: #96cf64;
+}
